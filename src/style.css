@@ -1,0 +1,1159 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #00796b;
+  ;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #00796b;
+  ;
+  color: #fff;
+  text-shadow: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eeeeee;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #535353;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2e2e2e;
+  }
+}
+
+.fix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+input {
+  font-family: 'Segoe UI', 'Lucida Grande', 'Roboto', 'Noto', 'Ubuntu', sans-serif;
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+body {
+  color: #111;
+  background-color: #100e17;
+  font-family: 'Segoe UI', 'Lucida Grande', 'Roboto', 'Noto', 'Ubuntu', sans-serif;
+  line-height: 1.43;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  font-size: 100%;
+  z-index: 1;
+  max-width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ns,
+br,
+hr {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ns-link a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cpt {
+  width: 836px;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ptr {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.ec {
+  width: 44px;
+  height: 57px;
+  position: relative;
+  line-height: 1;
+  font-size: 16px;
+  background-color: #00796b;
+  color: #f1f1f1;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-left: 2px;
+  letter-spacing: .5;
+  word-spacing: .5;
+  border-radius: 2px;
+}
+
+.ec:hover {
+  border: 1px solid #bbc3ca;
+  box-shadow: 0px 0px 17px -2px #eee;
+}
+
+.m24 {
+  border: 1px solid #00ff0a;
+  box-shadow: 0px 0px 17px -2px #eee;
+}
+
+.atn {
+  position: absolute;
+  top: .5px;
+  right: 1px;
+  font-size: 10px;
+  line-height: .9;
+}
+
+.eln {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 135%;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.atw {
+  position: absolute;
+  bottom: .5px;
+  left: 1px;
+  /* left:50%;
+  transform: translateX(-50%);*/
+  font-size: 8.5px;
+}
+
+.fl {
+  float: left;
+}
+
+.hn {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hydrogen {
+  float: left;
+}
+
+.helium {
+  float: right;
+}
+
+.lithium {
+  float: left;
+}
+
+.beryllium {
+  float: left;
+}
+
+.boron {
+  float: right;
+}
+
+.carbon {
+  float: right;
+}
+
+
+.nitrogen {
+  float: right;
+}
+
+.oxygen {
+  float: right;
+}
+
+
+.fluorine {
+  float: right;
+}
+
+.neon {
+  float: right;
+}
+
+.sodium {
+  float: left;
+}
+
+.magnesium {
+  float: left;
+}
+
+.aluminium {
+  float: right;
+}
+
+.silicon {
+  float: right;
+}
+
+
+.phosphorus {
+  float: right;
+}
+
+
+.sulfur {
+  float: right;
+}
+
+
+.chlorine {
+  float: right;
+}
+
+
+.argon {
+  float: right;
+}
+
+.potassium {
+  float: left;
+}
+
+.calcium {
+  float: left;
+}
+
+.scandium {
+  float: left;
+}
+
+.titanium {
+  float: left;
+}
+
+
+.vanadium {
+  float: left;
+}
+
+
+.chromium {
+  float: left;
+}
+
+
+
+.manganese {
+  float: left;
+}
+
+
+.iron {
+  float: left;
+}
+
+
+.cobalt {
+  float: left;
+}
+
+
+.nickel {
+  float: left;
+}
+
+
+.copper {
+  float: left;
+}
+
+
+.zinc {
+  float: left;
+}
+
+
+.gallium {
+  float: left;
+}
+
+
+.germanium {
+  float: left;
+}
+
+
+.arsenic {
+  float: left;
+}
+
+
+.selenium {
+  float: left;
+}
+
+
+.bromine {
+  float: left;
+}
+
+
+.krypton {
+  float: left;
+}
+
+
+
+.rubidium {
+  float: left;
+}
+
+
+
+.strontium {
+  float: left;
+}
+
+
+.yttrium {
+  float: left;
+}
+
+
+
+.zirconium {
+  float: left;
+}
+
+
+
+.niobium {
+  float: left;
+}
+
+
+
+.molybdenum {
+  float: left;
+}
+
+
+.technetium {
+  float: left;
+}
+
+.ruthenium {
+  float: left;
+}
+
+
+.rhodium {
+  float: left;
+}
+
+
+.palladium {
+  float: left;
+}
+
+
+.silver {
+  float: left;
+}
+
+
+.cadmium {
+  float: left;
+}
+
+
+.indium {
+  float: left;
+}
+
+
+.tin {
+  float: left;
+}
+
+
+.antimony {
+  float: left;
+}
+
+
+.calcium {
+  float: left;
+}
+
+
+.tellurium {
+  float: left;
+}
+
+
+.iodine {
+  float: left;
+}
+
+.xenon {
+  float: left;
+}
+
+.caesium {
+  float: left;
+}
+
+
+.barium {
+  float: left;
+}
+
+
+.hafnium {
+  float: left;
+}
+
+
+.tantalum {
+  float: left;
+}
+
+
+.tungsten {
+  float: left;
+}
+
+
+.rhenium {
+  float: left;
+}
+
+
+.osmium {
+  float: left;
+}
+
+
+.iridium {
+  float: left;
+}
+
+
+.calcium {
+  float: left;
+}
+
+
+.platinum {
+  float: left;
+}
+
+
+.gold {
+  float: left;
+}
+
+
+.mercury {
+  float: left;
+}
+
+
+.thallium {
+  float: left;
+}
+
+
+.lead {
+  float: left;
+}
+
+
+.bismuth {
+  float: left;
+}
+
+
+.polonium {
+  float: left;
+}
+
+
+.astatine {
+  float: left;
+}
+
+
+.radon {
+  float: left;
+}
+
+
+.francium {
+  float: left;
+}
+
+
+.radium {
+  float: left;
+}
+
+
+.rutherfordium {
+  float: left;
+}
+
+
+.dubnium {
+  float: left;
+}
+
+
+.seaborgium {
+  float: left;
+}
+
+
+.bohrium {
+  float: left;
+}
+
+
+.hassium {
+  float: left;
+}
+
+
+.meitnerium {
+  float: left;
+}
+
+
+.darmstadtium {
+  float: left;
+}
+
+
+.roentgenium {
+  float: left;
+}
+
+
+.copernicium {
+  float: left;
+}
+
+
+.nihonium {
+  float: left;
+}
+
+
+.flerovium {
+  float: left;
+}
+
+
+.moscovium {
+  float: left;
+}
+
+
+.livermorium {
+  float: left;
+}
+
+
+.tennessine {
+  float: left;
+}
+
+
+.oganesson {
+  float: left;
+}
+
+
+.lanthanum {
+  float: left;
+}
+
+
+.cerium {
+  float: left;
+}
+
+
+
+.praseodymium {
+  float: left;
+}
+
+
+.neodymium {
+  float: left;
+}
+
+
+.promethium {
+  float: left;
+}
+
+
+.samarium {
+  float: left;
+}
+
+
+.europium {
+  float: left;
+}
+
+
+.gadolinium {
+  float: left;
+}
+
+
+.terbium {
+  float: left;
+}
+
+
+.dysprosium {
+  float: left;
+}
+
+
+.holmium {
+  float: left;
+}
+
+
+.erbium {
+  float: left;
+}
+
+
+.thulium {
+  float: left;
+}
+
+
+.ytterbium {
+  float: left;
+}
+
+
+.lutetium {
+  float: left;
+}
+
+
+.actinium {
+  float: left;
+}
+
+
+.thorium {
+  float: left;
+}
+
+
+.protactinium {
+  float: left;
+}
+
+
+.uranium {
+  float: left;
+}
+
+
+.neptunium {
+  float: left;
+}
+
+
+.plutonium {
+  float: left;
+}
+
+
+.americium {
+  float: left;
+}
+
+
+.curium {
+  float: left;
+}
+
+
+.berkelium {
+  float: left;
+}
+
+
+.califomium {
+  float: left;
+}
+
+
+.einsteinium {
+  float: left;
+}
+
+
+.fermium {
+  float: left;
+}
+
+
+.mendelevium {
+  float: left;
+}
+
+
+.nobelium {
+  float: left;
+}
+
+
+.lawrencium {
+  float: left;
+}
+
+/*-------------------*/
+.ams {
+  background: rgba(130, 119, 23, .7);
+}
+
+
+.aems {
+  background: rgba(175, 180, 43, .7);
+}
+
+
+.lans {
+  background: #3f51b5;
+}
+
+
+.acts {
+  background: rgba(74, 20, 140, .7);
+}
+
+
+.tms {
+  background: rgba(0, 191, 165, .7);
+}
+
+
+.ptms {
+  background: rgba(56, 142, 60, .75);
+}
+
+
+.mlds {
+  background: rgba(30, 136, 229, .7);
+}
+
+.onms {
+  background: rgba(0, 121, 107, .7);
+}
+
+
+.ngs {
+  background: rgba(0, 184, 212, .7);
+}
+
+.uneip {
+  background: rgba(66, 66, 66, .7);
+}
+
+.sumc {
+  position: absolute;
+  color: #f1f1ff;
+  top: 6px;
+  left: 117px;
+  width: 425px;
+  height: 132px;
+  display: none;
+}
+
+.eltc {
+  width: 135px;
+  height: 130px;
+  border: 1px solid transparent;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+.atnc {
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.elnat {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 215%;
+}
+
+.elnc {
+  position: absolute;
+  top: 75px;
+  left: 5px;
+}
+
+.atwc {
+  position: absolute;
+  bottom: 1px;
+  left: 5px;
+}
+
+.elva {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  line-height: 1.1;
+  text-align: right;
+}
+
+.compro {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 270px;
+  font-size: 13px;
+}
+
+.compro table {
+  padding: 0;
+  width: 100%;
+}
+
+.inst {
+  font-size: 12px;
+  color: #a9a9af;
+  top: 57px;
+  left: 127px;
+
+}
+
+.inst table {
+  width: 100%;
+  border: none;
+}
+
+.inst table td {
+  padding: 7px 0;
+  padding-left: 12px;
+  margin-left: 19px;
+  position: relative;
+  cursor: pointer;
+}
+
+.inst .incord {
+  width: 13px;
+  height: 13px;
+  background: red;
+  position: absolute;
+  left: -8px;
+  top: 8px;
+}
+
+.cont4 {
+  width: 836px;
+  background: #fff;
+  color: #111;
+  margin: 0 auto;
+  margin-top: 700px;
+}
+
+
+figcaption {
+  font-style: italic;
+  font-size: 85%;
+  color: #636060;
+  word-spacing: .5px;
+  letter-spacing: 0.8px;
+  text-align: center;
+
+}
+
+.downpt {
+  border: none;
+  outline: none;
+  background-color: rgba(212, 226, 228, 0.04);
+  color: #eee;
+  padding: 8px 9px 5px 9px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.downpt:hover {
+  background-color: rgba(212, 226, 228, 0.1);
+}
+
+.downpt svg {
+  width: 20px;
+  height: 20px;
+}
+
+.downpt svg path {
+  fill: #eee;
+}
+
+body .ptlogo {
+  color: #fff;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  padding: 5px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin: 5px;
+}
+
+.ptlogo span:first-child {
+  padding: 5px;
+  border: 1px solid #fff;
+}
+
+.ptlogo span:nth-child(2) {
+  background: #00796b;
+  border: 1px solid #00796b;
+  padding: 5px;
+  position: relative;
+  left: 5px;
+  padding-left: 7px;
+}
+
+
+.cont4 {
+  padding: 40px;
+  line-height: 1.5;
+  font-size: 16.6px;
+  letter-spacing: .9px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px #222;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+.cont4 h2 {
+  font-size: 110%;
+  margin: 18px 0;
+  margin-top: 40px;
+  color: #00796b;
+}
+
+.cont4 h3 {
+  font-size: 100%;
+  margin: 15px 0;
+  color: #00796b;
+}
+
+.cont4 p {
+  margin: 15px auto;
+  font-size: 16px;
+}
+
+.pid {
+  font-size: 100%;
+}
+
+.cont4 table {
+  border: 1px solid #c6d2d1;
+  border-collapse: collapse;
+  font-size: 90%;
+}
+
+.cont4 table td,
+.cont4 table th {
+  border: 1px solid #c6d2d1;
+  padding: 5px 8px;
+}
+
+.cont4 hr {
+  background: #c6d2d1;
+  border: none;
+  padding: .5px;
+}
+
+.cont4 a,
+.cont4 a:link,
+.cont4 a:visited {
+  color: #007b6b;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cont4 a:active,
+.cont4 a:hover {
+  text-decoration: underline;
+}
+
+.points {
+  padding-left: 20px;
+  list-style: square;
+  font-size: 16px;
+}
+
+
+
+footer.cont4 {
+  padding-bottom: 10px;
+}
+
+footer.cont4 ul {
+  list-style: none;
+  font-weight: 700;
+}
+
+footer.cont4 ul a:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+footer.cont4 .coprc {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.smsh a {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #c6d2d1;
+  font-size: 14px;
+}
+
+.smsh a:hover,
+.smsh a:active {
+  text-decoration: none;
+  background: #007b6b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1210px) {
+  .ptlogo img {
+    width: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 1070px) {
+  .ptlogo img {
+    width: 100px;
+    margin-left: 65vw;
+  }
+
+}
+
+@media only screen and (max-width: 860px) {
+  .cont4 {
+    width: 90%;
+  }
+
+  .ptlogo img {
+    width: 80px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+
+  .cont4 {
+    margin-top: 500px;
+    padding: 30px 15px;
+    font-size: 15px;
+  }
+
+  .cont4 .points {
+    font-size: 15px;
+  }
+
+  .cont4 p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .cont4 {
+    margin-top: 400px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .cont4 {
+    margin-top: 370px;
+  }
+}
